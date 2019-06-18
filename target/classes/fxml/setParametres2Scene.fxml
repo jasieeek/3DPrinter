@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jasiek.test.controllers.SetParametres2Ctrl">
+   <children>
+      <Label layoutX="68.0" layoutY="35.0" prefHeight="84.0" prefWidth="476.0" text="CHOOSE PARAMETERS">
+         <font>
+            <Font name="Agency FB" size="70.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="mixA" layoutX="34.0" layoutY="191.0" mnemonicParsing="false" onAction="#actionMixA" prefHeight="43.0" prefWidth="158.0" text="Concrete with dispersed &#10;reinforcement">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mixB" layoutX="34.0" layoutY="245.0" mnemonicParsing="false" onAction="#actionMixB" prefHeight="17.0" prefWidth="143.0" text="High-quality concrete">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mixC" layoutX="34.0" layoutY="284.0" mnemonicParsing="false" onAction="#actionMixC" text="Waterproof concrete">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font></CheckBox>
+      <Label layoutX="58.0" layoutY="155.0" text="Concrete mix:">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="458.0" layoutY="152.0" prefHeight="34.0" prefWidth="84.0" text="Print speed:">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="speedB" layoutX="458.0" layoutY="235.0" mnemonicParsing="false" onAction="#actionSpeedB" text="400 mm/s">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="speedA" layoutX="458.0" layoutY="205.0" mnemonicParsing="false" onAction="#actionSpeedA" text="200 mm/s">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font></CheckBox>
+      <Button layoutX="372.0" layoutY="331.0" mnemonicParsing="false" onAction="#next" prefHeight="34.0" prefWidth="92.0" text="NEXT">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font></Button>
+      <Button layoutX="158.0" layoutY="331.0" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="92.0" text="BACK">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="275.0" layoutY="152.0" prefHeight="34.0" prefWidth="62.0" text="Filling:">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="fillB" layoutX="275.0" layoutY="244.0" mnemonicParsing="false" onAction="#actionFillB" text="30 cm">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="fillA" layoutX="275.0" layoutY="204.0" mnemonicParsing="false" onAction="#actionFillA" prefHeight="22.0" prefWidth="62.0" text="20 cm">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

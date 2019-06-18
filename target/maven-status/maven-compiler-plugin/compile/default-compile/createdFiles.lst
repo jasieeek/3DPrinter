@@ -1,0 +1,15 @@
+com\jasiek\test\controllers\LoadPatternCtrl.class
+com\jasiek\test\controllers\SetParametersCtrl.class
+com\jasiek\test\FxApp.class
+com\jasiek\test\controllers\SummaryCtrl2.class
+com\jasiek\test\controllers\SetParametres1Ctrl.class
+com\jasiek\test\reports\GenerateReportBuilding.class
+module-info.class
+com\jasiek\test\controllers\MainController.class
+com\jasiek\test\reports\GenerateReportObject.class
+com\jasiek\test\controllers\SummaryCtrl1.class
+com\jasiek\test\controllers\LoadProjectCtrl.class
+com\jasiek\test\controllers\SetParametres2Ctrl.class
+com\jasiek\test\controllers\ChooseObjectCtrl.class
+com\jasiek\test\reports\Singleton.class
+com\jasiek\test\additives\FileSelect.class

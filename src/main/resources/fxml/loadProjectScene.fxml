@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jasiek.test.controllers.LoadProjectCtrl">
+   <children>
+      <Label layoutX="196.0" layoutY="23.0" prefHeight="84.0" prefWidth="210.0" text="BUILDING">
+         <font>
+            <Font name="Agency FB" size="70.0" />
+         </font>
+      </Label>
+      <Button layoutX="114.0" layoutY="327.0" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="92.0" text="BACK">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="349.0" layoutY="327.0" mnemonicParsing="false" onAction="#chooseProject" prefHeight="34.0" prefWidth="134.0" text="CHOOSE A PROJECT">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="136.0" layoutY="269.0" text="Now you can load your building project">
+         <font>
+            <Font name="Agency FB" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="147.0" fitWidth="200.0" layoutX="219.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kask.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
